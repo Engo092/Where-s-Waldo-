@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background-color: #b91c1c;
+    box-shadow: 2px 2px 8px lightgray;
+}
+
+header h1 {
+    font-size: 36px;
+    text-align: center;
+    margin: auto 0;
+    padding: 1.3rem;
+    color: #fafafa;
+    text-shadow: 2px 2px #141414;
+}
+
+.introContent {
+    margin: 1rem auto;
+    width: 65%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #283444;
+    border: 1px solid #450a0a;
+    border-radius: 18px;
+    color: #fafafa;
+    box-shadow: 0 0 8px gray;
+}
+
+.introContent h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.startGame, .leaderboardButton {
+    appearance: none;
+    border: none;
+    border-radius: 4px;
+    font-size: x-large;
+    padding: 0.8rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.startGame {
+    background-color: #1a9447;
+}
+
+.startGame:hover {
+    cursor: pointer;
+    background-color: #06ac48;
+}
+
+.leaderboardButton {
+    margin-left: 2rem;
+    background-color: #0f5680;
+}
+
+.leaderboardButton:hover {
+    cursor: pointer;
+    background-color: #156391;
+}

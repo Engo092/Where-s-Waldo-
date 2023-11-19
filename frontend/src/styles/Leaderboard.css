@@ -1,0 +1,49 @@
+.leaderboardContent {
+    margin: 1rem auto;
+    width: 55%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #283444;
+    border: 1px solid #450a0a;
+    border-radius: 18px;
+    color: #fafafa;
+    box-shadow: 0 0 8px rgb(58, 25, 25);
+}
+
+.goBack {
+    text-align: center;
+    margin: 1rem;
+    margin-bottom: 0;
+    width: 70px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #fafafa;
+    text-decoration: none;
+    padding: 0.5rem;
+    background-color: #0c4a6e;
+    border-radius: 6px;
+}
+
+.goBack:hover {
+    background-color: #14577e;
+}
+
+.leaderboardContent h2 {
+    font-size: xx-large;
+    margin-left: 1.5rem;
+}
+
+.leaderboardContent ol {
+    font-size: xx-large;
+    margin-left: 2rem;
+}
+
+.userTime {
+    margin-bottom: 0.8rem;
+}
+
+.noTimes {
+    font-size: x-large;
+    margin-left: 1.5rem;
+}

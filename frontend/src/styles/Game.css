@@ -1,0 +1,79 @@
+body {
+    background-color: #b91c1c;
+}
+
+header {
+    box-shadow: none;
+    display: flex;
+    justify-content: space-around;
+    min-width: 1000px;
+}
+
+.headerChars {
+    display: flex;
+    align-items: center;
+    min-width: 760px;
+    justify-content: space-between;
+}
+
+.findChars {
+    margin-left: 2rem;
+    color: #fafafa;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.charIcons {
+    background-color: white;
+    min-width: 480px;
+}
+
+.charIcons img {
+    max-height: 100px;
+}
+
+.gameContent {
+    background-color: #fee2e2;
+}
+
+.dropdownCircle {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #d30c0cc2;
+    border-radius: 50%;
+    border: 2px solid #eab308;
+}
+
+.selector {
+    margin-bottom: -4px;
+    max-height: 90px;
+    border: 1px solid black;
+}
+
+.selector:hover {
+    cursor: pointer;
+}
+
+.dropdownCharList {
+    background-color: #fafafa;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.dropdownCharList p {
+    margin-left: 5px;
+}
+
+.checkCircle {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: -5px;
+    border-radius: 50%;
+}
+
+.timer {
+    padding-left: 3rem;
+    font-size: xx-large;
+    color: #fafafa;
+}
